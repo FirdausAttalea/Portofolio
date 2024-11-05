@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  kotlin,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Product Manager",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Android Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Developer",
     icon: creator,
   },
 ];
@@ -65,16 +66,12 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -112,37 +109,41 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "typescript",
+    icon: typescript,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Product Manager Internship",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "I've been assist in market research to identify trends, customer needs, and competitive landscape.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Then, i should compile data and findings to support product strategy.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Full-Time Product Manager",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Develop and communicate a clear product vision and strategy that aligns with the team goals and market trends.",
+      "I also have to identify market opportunities, conduct competitive analysis, and define the product roadmap.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Android Developer",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
@@ -172,7 +173,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Aye proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -198,9 +199,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "InCareer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Android based application that allows disabilities user can search their job based on deficiency. ",
     tags: [
       {
         name: "react",
@@ -219,9 +220,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "EcoWardrobe",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Android application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
